@@ -1,12 +1,59 @@
-# React + Vite
+🗃️ Gestor de Estoque - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao React Stock, um sistema simples e intuitivo para gestão de estoque, desenvolvido com React e React Router! Este projeto foi criado com o objetivo de praticar conceitos importantes do React, como componentização, hooks personalizados, context API, gerenciamento de estado e armazenamento local (localStorage).
 
-Currently, two official plugins are available:
+Link do projeto hospedado no Vercel:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 https://gestor-de-estoque-react.vercel.app/
 
-## Expanding the ESLint configuration
+🚀 Funcionalidades:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📦 Cadastro de novos itens com nome, descrição, quantidade, preço e categoria.
+
+📝 Atualização de itens existentes.
+
+❌ Remoção de itens com confirmação.
+
+📊 Dashboard com:
+
+ - Total de itens em estoque.
+
+ - Diversidade de produtos.
+
+-  Itens adicionados recentemente.
+
+-  Itens com quantidade baixa.
+
+🔍 Visualização detalhada de cada item.
+
+💾 Dados persistidos no localStorage, sem necessidade de back-end.
+
+🧰 Tecnologias utilizadas:
+
+- React.
+
+- React Router DOM.
+
+- Context API.
+
+- Hooks personalizados.
+
+- CSS simples para layout responsivo.
+
+💡 Aprendizados:
+
+Esse projeto me proporcionou uma base sólida no uso de React Router, Context API e no controle de estado global de forma simples, além de reforçar boas práticas com componentes reutilizáveis, validações e usabilidade.
+
+🔧 Como rodar o projeto:
+
+  # Clone o repositório
+    git clone https://github.com/RobsonCrul/gestor-de-estoque-React.git
+
+  # Acesse o diretório
+    cd gestor-de-estoque-React
+
+  # Instale as dependências
+    npm install
+
+  # Execute o projeto
+    npm run dev
